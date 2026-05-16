@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:black;
+  overflow:hidden;
+  height:100vh;
+}
+
+/* старт */
+#start{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align:center;
+  z-index:10;
+}
+
+.title{
+  color:white;
+  font-size:32px;
+  text-shadow:0 0 10px red;
+  margin-bottom:20px;
+}
+
+#btn{
+  padding:10px 20px;
+  font-size:18px;
+  background:red;
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  box-shadow:0 0 15px red;
+}
+
+/* сердце */
+#heart{
+  position:relative;
+  width:100vw;
+  height:100vh;
+}
+
+/* слова */
+.word{
+  position:absolute;
+  color:red;
+  font-size:16px;
+  font-family:Arial;
+  opacity:0;
+  text-shadow:0 0 10px red, 0 0 20px red;
+  transition:2s ease;
+}
